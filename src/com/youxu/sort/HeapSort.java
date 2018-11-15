@@ -16,7 +16,6 @@ public class HeapSort {
             swap(arr,0,j);//将堆顶元素与末尾元素进行交换
             adjustHeap(arr,0,j);//重新对堆进行调整
         }
-
     }
 	
 	/**
@@ -59,5 +58,4 @@ public class HeapSort {
         sort(arr);
         System.out.println(Arrays.toString(arr));
 	}
-	
 }
